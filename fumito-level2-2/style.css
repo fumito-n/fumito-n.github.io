@@ -1,0 +1,294 @@
+/*----------------------------------------
+| page
+----------------------------------------*/
+.inr {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/*----------------------------------------
+| page-header
+----------------------------------------*/
+
+.header {
+  /* position: fixed; */
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 94px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0,16);
+  background-color: #fff;
+}
+.header-inner {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header-inner img {
+  width: 130px;
+  height: 33px;
+
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.page-header-info__btn {
+  width: 155px;
+  height: 27px;
+  background-color: #FFE000;
+  color: #000;
+  border-radius: 24px;
+  display: block;
+  text-align: center;
+  line-height: 18px;
+  box-shadow: cornsilk;
+}
+
+.main {
+  /* display: flex;
+   */
+}
+.main img {
+  width: 560px;
+  height: 448px;
+}
+.main-inner {
+  display: flex;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 20px
+}
+.main-copy {
+  text-align: left;
+}
+.main-copy h2 {
+  font-size: 32px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.main-copy p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.main-copy img {
+  position: absolute;
+  right: 15%;
+  top:20%;
+  z-index: 1000;
+}
+
+.main-btn {
+  display: flex;
+}
+
+.main-btn a {
+  color: #fff;
+}
+.contact-btn {
+  flex: auto;
+  width: 166px;
+  height: 48px;
+  background-color: #109954;
+  color: #000;
+  border-radius: 32px;
+  display: block;
+  text-align: center;
+  line-height: 18px;
+  box-shadow: cornsilk;
+  
+}
+
+/* 横並びのスタイルをinrクラスに付け替える */
+.page-header {
+  padding: 17px 0;
+}
+
+
+
+.page-header__inr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 横並び */
+.page-header__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-header-info__txt {
+  margin-right: 30px;
+}
+
+.page-header_info__btn {
+  width: 151px;
+  height: 40px;
+  background-color: #d5dd3d;
+  color: #fff;
+}
+
+/* 縦並び */
+.page-header-info__txt span {
+  /* display: block; */
+}
+.page-header__logo img {
+  width: 130px;
+  height: 33px;
+}
+
+.intro-section__nav {
+  padding: 88px 0 80px;
+}
+
+.intro-section__nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-section__nav ul li {
+  position: relative;
+}
+
+.intro-section__nav ul li img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    padding: 0 25px;
+    color: #000;
+    font-size: 25px;
+}
+.intro-section__block {
+  display: flex;
+  height: 278px;
+}
+
+.intro-section__block > * {
+  width: 50%;
+}
+
+/* 奇数番目の場合、横並びを反転 */
+.intro-section__block:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+/* 各画像を設定 */
+.intro-section__inr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1024px;
+  margin: 0 auto;
+
+}
+.intro-section__block:nth-child(1) .intro-section__img-area {
+  background-image: url("img/about-1.jpg");
+}
+
+.intro-section__block:nth-child(2) .intro-section__img-area {
+  background-image: url("img/about-2.jpg");
+}
+
+
+
+/* 画像エリア */
+.intro-section__img-area {
+  background: center center no-repeat;
+  background-size: cover;
+}
+
+/* 文章エリア */
+.intro-section__txt-area {
+  box-sizing: border-box;
+  color: #333333;
+  background-color: #fff;
+}
+
+/* タイトル */
+.intro-section__txt-area p {
+  font-size: 16px;
+}
+
+.MORE-btn {
+  background-color: #0808;
+  text-align: center;
+  
+}
+
+section.news {
+
+}
+
+.news-wapper {
+
+}
+.news-inner {
+  width: 1024px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  
+}
+.news-ttl {
+  text-align: center;
+}
+.news-box {
+  display: flex;
+    margin: 0 auto;
+    
+}
+
+.news img {
+  flex: auto;
+  width: 300px;
+  height: 168px;
+}
+.news h3 {
+  padding: auto;
+}
+
+.category-btn {
+  
+  width: 101px;
+  height: 26px;
+  background-color: #109954;
+  color: #fff;
+  border-radius: 13px;
+  display: block;
+  text-align: center;
+  line-height: 18px;
+  box-shadow: cornsilk;
+  
+}
+
+.news-text {
+  display: flex;
+}
+
+
+.page-footer {
+  display: flex;
+  padding: 40px 0;
+  background-color: #E8E8E8;
+}
+
+.page-footer small {
+  font-size: 14px;
+}
+.footer-logo img {
+  padding: auto;
+  width: 70px;
+  height: 70px;
+}
